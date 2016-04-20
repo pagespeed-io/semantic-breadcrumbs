@@ -10,7 +10,7 @@ class SemanticBreadcrumbs
 
     position = 1
     links.each do |link|
-      bcs << single(href: link[:href], name: link[:name], position: position)
+      bcs << single(position: position, **link)
       position += 1
     end
 
@@ -19,15 +19,15 @@ class SemanticBreadcrumbs
 
   private
 
-  def single(link)
-    return nil if [link[:href], link[:name], link[:position]].include?(nil)
+  def single(href:, name:, position:)
+    return nil if [href, name, position].include?(nil)
 
     noindent %(
       <li property="itemListElement" typeof="ListItem">
-        <a property="item" typeof="WebPage" href="#{link[:href]}">
-          <span property="name">#{link[:name]}</span>
+        <a property="item" typeof="WebPage" href="#{href}">
+          <span property="name">#{name}</span>
         </a>
-        <meta property="position" content="#{link[:position]}">
+        <meta property="position" content="#{position}">
       </li>
     )
   end
