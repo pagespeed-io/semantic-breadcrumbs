@@ -1,5 +1,7 @@
 # Semantic Breadcrumbs
 
+[![Build Status](https://travis-ci.org/pagespeed-io/semantic-breadcrumbs.svg?branch=master)](https://travis-ci.org/pagespeed-io/semantic-breadcrumbs)
+
 **Semantic Breadcrumbs** creates HTML markup for breadcrumbs.
 See the Google Developers article for more detail:
 https://developers.google.com/structured-data/breadcrumbs
