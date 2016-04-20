@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    semantic-breadcrumbs (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    power_assert (0.2.7)
+    rake (11.1.2)
+    test-unit (3.1.8)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rake
+  semantic-breadcrumbs!
+  test-unit
+
+BUNDLED WITH
+   1.11.2
