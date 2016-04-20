@@ -3,9 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '1.0.0'
   s.date        = '2016-04-19'
   s.summary     = 'Create semantic breadcrumbs in HTML'
-  s.description = <<~DESC
-    Semantic breadcrumb generator. It takes an object describing the breadcrumbs
-    and returns HTML for you to use in your layouts.
+  s.description = 'Semantic breadcrumb generator. It takes an array of objects describing the breadcrumbs and returns HTML for you to use in your layouts.'
   DESC
   s.authors     = ['Max Lielje']
   s.email       = 'max@pagespeed.io'
