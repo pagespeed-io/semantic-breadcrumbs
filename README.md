@@ -69,12 +69,15 @@ and adjust it to your needs:
 
 ### Custom Divider
 
-You can set a custom divider when instantiating the `SemanticBreadcrumbs`
-object, like so:
+The divider is placed between the breadcrumbs as you can see in the example
+above. The default is `›`.
+
+You can override it when instantiating the `SemanticBreadcrumbs` object:
 
 ```ruby
 SemanticBreadcrumbs.new(divider: '//')
 ```
+
 
 ## Contributing
 
