@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    semantic-breadcrumbs (1.0.0)
+    semantic-breadcrumbs (1.0.3)
 
 GEM
   remote: https://rubygems.org/

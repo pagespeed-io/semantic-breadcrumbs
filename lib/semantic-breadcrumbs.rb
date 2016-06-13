@@ -10,7 +10,7 @@ class SemanticBreadcrumbs
 
     position = 1
     links.each do |link|
-      bcs << single(position: position, **link)
+      bcs << single(position: position, **symbolize_keys(link))
       position += 1
     end
 
@@ -34,5 +34,9 @@ class SemanticBreadcrumbs
 
   def noindent(s)
     s.gsub(/^\s+/, '').gsub("\n", '').strip
+  end
+
+  def symbolize_keys(hash)
+    hash.inject({}){ |memo,(k,v)| memo[k.to_sym] = v; memo }
   end
 end
