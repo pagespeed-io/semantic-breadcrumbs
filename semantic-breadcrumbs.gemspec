@@ -1,7 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'semantic-breadcrumbs'
-  s.version     = '1.0.2'
-  s.date        = '2016-04-19'
+  s.version     = '1.0.3'
   s.summary     = 'Create semantic breadcrumbs in HTML'
   s.description = 'Semantic breadcrumb generator. It takes an array of objects describing the breadcrumbs and returns HTML for you to use in your layouts.'
   s.authors     = ['Max Lielje']
