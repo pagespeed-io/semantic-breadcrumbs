@@ -6,7 +6,7 @@
 See the Google Developers article for more detail:
 https://developers.google.com/structured-data/breadcrumbs
 
-The output format is **RDFA**.
+The output format is **RDFa**.
 
 
 ## Usage
